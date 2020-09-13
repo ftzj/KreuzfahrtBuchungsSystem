@@ -3,9 +3,28 @@
 
 #include <iostream>
 
+#include "Kabine.h";
+#include "Datum.h"
+
 int main()
 {
     std::cout << "Hello World!\n";
+
+    Kabine* kabine = new Kabine(10, 1, "Balkon", "Doppelzimmer", 2 );
+    kabine->print();
+
+    Datum* datum = new Datum(12, 7, 2021);
+    datum->print();
+    try {
+        datum = new Datum(32, 5, 2021);
+    }
+    catch (const char* msg) {
+        cout << msg << endl;
+        return 0;
+    }
+    
+    datum->print();
+    return 0;
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu

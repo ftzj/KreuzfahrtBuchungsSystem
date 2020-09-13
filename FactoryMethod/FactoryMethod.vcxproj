@@ -140,7 +140,19 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Datum.cpp" />
     <ClCompile Include="FactoryMethod.cpp" />
+    <ClCompile Include="Kabine.cpp" />
+    <ClCompile Include="KreuzfahrtAnbieterA.cpp" />
+    <ClCompile Include="Schiff.cpp" />
+    <ClCompile Include="StandardOstsee.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Datum.h" />
+    <ClInclude Include="Kabine.h" />
+    <ClInclude Include="KreuzfahrtAnbieterA.h" />
+    <ClInclude Include="Schiff.h" />
+    <ClInclude Include="StandardOstsee.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
