@@ -4,5 +4,7 @@ class Kreuzfahrt
 public:
 	Kreuzfahrt();
 	~Kreuzfahrt();
+
+private:
 };
 
