@@ -18,5 +18,19 @@
     <ClCompile Include="NaiveImplementierung.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Kreuzfahrt.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Reisebuero.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Kreuzfahrt.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Reisebuero.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

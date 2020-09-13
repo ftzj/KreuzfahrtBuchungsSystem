@@ -140,7 +140,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Kreuzfahrt.cpp" />
     <ClCompile Include="NaiveImplementierung.cpp" />
+    <ClCompile Include="Reisebuero.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Kreuzfahrt.h" />
+    <ClInclude Include="Reisebuero.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
