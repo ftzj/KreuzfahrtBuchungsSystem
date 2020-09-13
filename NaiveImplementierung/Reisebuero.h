@@ -10,9 +10,9 @@ public:
 		//delete kreuzfahrt;
 	}
 
-	//Kreuzfahrt* kreuzfahrt = new Kreuzfahrt();
 	Kreuzfahrt bucheKreuzfahrt();
 
 private:
+
 };
 
