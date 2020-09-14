@@ -18,5 +18,37 @@
     <ClCompile Include="FactoryMethod.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="StandardOstsee.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="KreuzfahrtAnbieterA.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Kabine.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Schiff.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Datum.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="StandardOstsee.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="KreuzfahrtAnbieterA.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Kabine.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Schiff.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Datum.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
