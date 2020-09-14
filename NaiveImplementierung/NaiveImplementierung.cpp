@@ -2,51 +2,12 @@
 //
 
 #include <iostream>
-#include <time.h>
-
-#include <chrono>
-
 
 using namespace std;
-using namespace std::chrono;
 
-tm erstelleDatum(int tag, int monat, int jahr);
-void printDatum(tm datum);
-tm addiereTage(tm datum, int dauer);
-
-int main()
-{
-    std::cout << "Hello World!\n";
-	
-	tm datum;
-	datum = erstelleDatum(29, 3, 2021);
-	printDatum(datum);
-
-	datum = addiereTage(datum, 10);
-	printDatum(datum);
-
-}
-
-tm erstelleDatum(int tag, int monat, int jahr)
-{
-	tm datum;
-
-	datum.tm_mday = tag;
-	datum.tm_mon = monat;
-	datum.tm_year = jahr;
-
-	return datum;
-}
-
-void printDatum(tm datum) {
-	cout << datum.tm_mday << "." << datum.tm_mon << "." << datum.tm_year << endl;
-}
-
-tm addiereTage(tm datum, int dauer) {
-
-	datum.tm_mday += dauer;
-
-	return datum;
+int main() {
+	cout << "Hello, World!" << endl;
+	return 0;
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu

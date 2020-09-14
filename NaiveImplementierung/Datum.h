@@ -17,6 +17,9 @@ public:
 	~Datum();
 
 	bool ueberpruefeDatum(int tag, int monat);
+	void addiereTage(int tage);
+	void addiereMonate(int monate);
+	void addiereJahre(int jahre);
 	void print();
 };
 

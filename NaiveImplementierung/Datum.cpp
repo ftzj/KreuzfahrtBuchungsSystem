@@ -71,3 +71,26 @@ Datum Datum::setDatum(int tag, int monat, int jahr) {
 		this->jahr = jahr;
 	}
 }
+
+// rechnet nur ueber einen Monat hinweg korrekt
+void Datum::addiereTage(int tage) {
+
+	if (this->tag + tage > maxTageMonat(this->monat))
+	{
+		this->tag = this->tag + tage - maxTageMonat(this->monat);
+		this->addiereMonate(1);
+	}
+}
+
+void Datum::addiereMonate(int monate) {
+	if (this->monat + monat > 12) {
+		
+		int anzJahre = monate % 12;
+		monate = this->monat + (monate - monate * anzJahre) - 12;
+
+		this->jahr += anzJahre;
+	}
+	else {
+		this->monat += monate;
+	}
+}
