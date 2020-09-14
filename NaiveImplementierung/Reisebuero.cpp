@@ -9,10 +9,10 @@ Kreuzfahrt Reisebuero::bucheKreuzfahrt() {
 	//Kreuzfahrt* kreuzfahrt = new Kreuzfahrt();
 	Kreuzfahrt kreuzfahrt;
 
-	kreuzfahrt.bucheAnreise();
-	kreuzfahrt.bucheAbreise();
+	//kreuzfahrt.bucheAnreise();
+	/*kreuzfahrt.bucheAbreise();
 	kreuzfahrt.bucheKabine();
-	kreuzfahrt.print();
+	kreuzfahrt.print();*/
 	return kreuzfahrt;
 }
 

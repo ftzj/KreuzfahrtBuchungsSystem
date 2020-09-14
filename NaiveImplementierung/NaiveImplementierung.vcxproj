@@ -140,11 +140,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Datum.cpp" />
     <ClCompile Include="Kreuzfahrt.cpp" />
     <ClCompile Include="NaiveImplementierung.cpp" />
     <ClCompile Include="Reisebuero.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Datum.h" />
     <ClInclude Include="Kreuzfahrt.h" />
     <ClInclude Include="Reisebuero.h" />
   </ItemGroup>
