@@ -2,3 +2,7 @@
 
 Kreuzfahrt::Kreuzfahrt() {}
 Kreuzfahrt::~Kreuzfahrt() {}
+
+void Kreuzfahrt::bucheAnreise() {
+
+}
